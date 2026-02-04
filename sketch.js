@@ -340,9 +340,13 @@ ration[2][1] -= 0.01;
 }
 }
   
-  if(key === 'ArrowLeft'){
+  if(key === 'P'){
     print("hey");
     gaudi = 1;
+  }
+
+  if(key === 'O'){
+    gaudi = 0;
   }
 }
   
